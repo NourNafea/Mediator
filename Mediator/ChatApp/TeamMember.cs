@@ -25,4 +25,10 @@ public abstract class TeamMember
         Console.WriteLine($"from {from}: '{message}'");
     }
 
+    public void SendTo<T>(string message) where T : TeamMember
+    {
+        this.ChatRoom.SendTo<T>(this.Name,message);
+    }
+
+
 }

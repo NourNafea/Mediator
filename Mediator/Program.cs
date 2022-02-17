@@ -14,6 +14,8 @@ class Program
         teamChat.RegisterMembers(Nour,Hassan,Taha,Reem,Eman);
         Nour.Send("Hello everybody, we're going to be deploying at 2pm today.");
         Taha.Send("Ok. thanks for letting us know.");
+        Console.WriteLine("============================================================================");
+        Nour.SendTo<Developer>("Make sure to execute your unit tests before checking in.");
 
     }
     // static void Main(string[] args) //Structural

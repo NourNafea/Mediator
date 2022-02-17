@@ -8,7 +8,7 @@ public class Developer : TeamMember
 
     public override void Receive(string from, string message)
     {
-        Console.WriteLine($"{this.Name} ({nameof(Developer)}) has received : ");
+        Console.Write($"{this.Name} ({nameof(Developer)}) has received : ");
         base.Receive(from,message);
     }
 }

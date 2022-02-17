@@ -14,6 +14,11 @@ public class TeamChatRoom : ChatRoom
         this.TeamMembers.ForEach(x=>x.Receive(from,message));
     }
 
+    public override void SendTo<T>(string @from, string message)
+    {
+        this.TeamMembers.OfType<T>().ToList().ForEach(x=>x.Receive(from,message));
+    }
+
     public void RegisterMembers(params TeamMember[] teamMembers)
     {
         foreach (var member in teamMembers)
