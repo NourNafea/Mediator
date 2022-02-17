@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{A863BD68-3034-43C3-A4FF-B26ECDD7E48E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRDemo", "MediatRDemo\MediatRDemo.csproj", "{F8814499-44EE-4326-9EC8-B6ED5824684E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A863BD68-3034-43C3-A4FF-B26ECDD7E48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A863BD68-3034-43C3-A4FF-B26ECDD7E48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A863BD68-3034-43C3-A4FF-B26ECDD7E48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8814499-44EE-4326-9EC8-B6ED5824684E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8814499-44EE-4326-9EC8-B6ED5824684E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8814499-44EE-4326-9EC8-B6ED5824684E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8814499-44EE-4326-9EC8-B6ED5824684E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
